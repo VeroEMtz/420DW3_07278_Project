@@ -30,12 +30,12 @@ enum HTTPMethodsEnum: string {
      *
      * @static
      * @param string $methodString
-     * @return HTTPMethodsEnum
+     * @return \GivenCode\Enumerations\HTTPMethodsEnum
      *
      * @author Marc-Eric Boury
      * @since  2024-03-16
      */
-    #[Pure] public static function getValue(string $methodString) : HTTPMethodsEnum {
+    #[Pure] public static function getValue(string $methodString) : \Teacher\GivenCode\Enumerations\HTTPMethodsEnum {
         return self::from(strtoupper(trim($methodString)));
     }
 }

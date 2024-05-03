@@ -11,10 +11,10 @@ declare(strict_types=1);
 
 namespace Teacher\Examples;
 
+use Teacher\GivenCode\Services\InternalRouter;
 use Debug;
 use ErrorException;
 use Exception;
-use Teacher\GivenCode\Services\InternalRouter;
 
 /**
  * TODO: Class documentation

@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\DTOs;
 
+use Teacher\GivenCode\Exceptions\RuntimeException;
+use Teacher\GivenCode\Exceptions\ValidationException;
 use DateTime;
 use Exception;
 use Teacher\Examples\DAOs\BookDAO;
-use Teacher\GivenCode\Exceptions\RuntimeException;
-use Teacher\GivenCode\Exceptions\ValidationException;
 
 /**
  * TODO: Class documentation

@@ -11,10 +11,10 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\Services;
 
+use Teacher\GivenCode\Abstracts\IService;
 use Debug;
 use Exception;
 use Teacher\Examples\DTOs\AuthorDTO;
-use Teacher\GivenCode\Abstracts\IService;
 
 /**
  * TODO: Class documentation

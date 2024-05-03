@@ -11,10 +11,10 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\DTOs;
 
-use DateTime;
-use Teacher\Examples\Enumerations\DaysOfWeekEnum;
 use Teacher\GivenCode\Abstracts\AbstractDTO;
 use Teacher\GivenCode\Exceptions\ValidationException;
+use DateTime;
+use Teacher\Examples\Enumerations\DaysOfWeekEnum;
 
 /**
  * Example DTO-type class
@@ -344,7 +344,7 @@ class ExampleDTO extends AbstractDTO {
     }
     
     // </editor-fold>
-    
+   
     
     /**
      * TODO: Function documentation

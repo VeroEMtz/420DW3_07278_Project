@@ -11,8 +11,8 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\DAOs;
 
-use PDO;
 use Teacher\GivenCode\Services\DBConnectionService;
+use PDO;
 
 /**
  * TODO: Class documentation

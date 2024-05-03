@@ -12,6 +12,8 @@ declare(strict_types=1);
 namespace Teacher\GivenCode\Abstracts;
 
 
+use Teacher\GivenCode\Abstracts\DTOTrait;
+use Teacher\GivenCode\Abstracts\IDTO;
 use http\Exception\RuntimeException;
 
 /**
@@ -19,12 +21,14 @@ use http\Exception\RuntimeException;
  *
  * @author Marc-Eric Boury
  * @since  2024-03-14
+ * @property mixed $usrName
+ * @property mixed $password
  */
 abstract class AbstractDTO implements IDTO {
     use DTOTrait;
     
     /**
-     * Constructor for {@see AbstractDTO}.
+     * Constructor for {@see \GivenCode\Abstracts\\GivenCode\Abstracts\\Teacher\GivenCode\Abstracts\AbstractDTO}.
      */
     public function __construct() {}
     

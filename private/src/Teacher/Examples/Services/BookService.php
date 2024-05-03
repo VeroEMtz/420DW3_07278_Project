@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\Services;
 
+use Teacher\GivenCode\Abstracts\IService;
 use Teacher\Examples\DAOs\AuthorBookDAO;
 use Teacher\Examples\DAOs\BookDAO;
 use Teacher\Examples\DTOs\AuthorDTO;
 use Teacher\Examples\DTOs\BookDTO;
-use Teacher\GivenCode\Abstracts\IService;
 
 /**
  * TODO: Class documentation

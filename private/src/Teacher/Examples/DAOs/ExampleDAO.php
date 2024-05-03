@@ -11,13 +11,13 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\DAOs;
 
-use DateTime;
-use PDO;
-use Teacher\Examples\DTOs\ExampleDTO;
 use Teacher\GivenCode\Abstracts\IDAO;
 use Teacher\GivenCode\Exceptions\RuntimeException;
 use Teacher\GivenCode\Exceptions\ValidationException;
 use Teacher\GivenCode\Services\DBConnectionService;
+use DateTime;
+use PDO;
+use Teacher\Examples\DTOs\ExampleDTO;
 
 /**
  * Example DAO-type class.

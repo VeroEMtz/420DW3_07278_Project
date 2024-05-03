@@ -11,7 +11,7 @@ declare(strict_types=1);
 
 namespace Teacher\GivenCode\Abstracts;
 
-use Teacher\GivenCode\Exceptions\ValidationException;
+use Teacher\Exceptions\ValidationException;
 
 /**
  * TODO: Trait documentation

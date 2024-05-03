@@ -8,13 +8,13 @@ declare(strict_types=1);
 
 namespace Teacher\GivenCode\Services;
 
+use Teacher\GivenCode\Abstracts\IService;
+use Teacher\GivenCode\Exceptions\RuntimeException;
+use Teacher\GivenCode\Exceptions\ValidationException;
 use Exception;
 use JsonException;
 use PDO;
 use PDOException;
-use Teacher\GivenCode\Abstracts\IService;
-use Teacher\GivenCode\Exceptions\RuntimeException;
-use Teacher\GivenCode\Exceptions\ValidationException;
 
 /**
  * TODO: Class documentation

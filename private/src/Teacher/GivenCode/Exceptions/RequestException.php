@@ -11,6 +11,7 @@ declare(strict_types=1);
 
 namespace Teacher\GivenCode\Exceptions;
 
+use Teacher\GivenCode\Exceptions\RuntimeException;
 use Throwable;
 
 /**

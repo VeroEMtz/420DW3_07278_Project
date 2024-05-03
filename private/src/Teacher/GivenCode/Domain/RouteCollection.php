@@ -9,9 +9,11 @@ declare(strict_types=1);
 namespace Teacher\GivenCode\Domain;
 
 use ArrayIterator;
+use Teacher\GivenCode\Domain\AbstractRoute;
+use Teacher\GivenCode\Domain\APIRoute;
+use Teacher\GivenCode\Exceptions\ValidationException;
 use Debug;
 use IteratorAggregate;
-use Teacher\GivenCode\Exceptions\ValidationException;
 use Traversable;
 
 /**
@@ -29,7 +31,7 @@ class RouteCollection implements IteratorAggregate {
     private array $routes = [];
     
     /**
-     * Constructor for {@see RouteCollection}.
+     * Constructor for {@see \GivenCode\Domain\\GivenCode\Domain\\Teacher\GivenCode\Domain\RouteCollection}.
      *
      * @param array $routeArray An optional array of initial {@see AbstractRoute} elements.
      * @throws ValidationException If the initial route array contains invalid elements.

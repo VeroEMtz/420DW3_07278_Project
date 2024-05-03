@@ -11,11 +11,11 @@ declare(strict_types=1);
 
 namespace Teacher\Examples\Controllers;
 
-use Teacher\Examples\Services\BookService;
-use Teacher\Examples\Services\LoginService;
 use Teacher\GivenCode\Abstracts\AbstractController;
 use Teacher\GivenCode\Exceptions\RequestException;
 use Teacher\GivenCode\Services\DBConnectionService;
+use Teacher\Examples\Services\BookService;
+use Teacher\Examples\Services\LoginService;
 
 /**
  * TODO: Class documentation

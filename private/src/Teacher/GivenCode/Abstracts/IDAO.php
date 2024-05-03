@@ -11,6 +11,8 @@ declare(strict_types=1);
 
 namespace Teacher\GivenCode\Abstracts;
 
+use Teacher\GivenCode\Abstracts\AbstractDTO;
+
 /**
  * Interface for DAO-type objects enforcing basic database operations methods.
  *
